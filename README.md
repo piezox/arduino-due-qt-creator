@@ -1,12 +1,15 @@
 # arduino-due-qt-creator
-It's templates wizard  for fast creating project for board Arduino DUE (on ARM CortexM3 ATSAM3X8E controller based) with using the Qt Creator(with or without using FreeRTOS) .
-Template based on the QBS(2 templates).
+## Qt template wizard for Arduino Due
+Templates wizards (XML-based, porting to the new JSON formt in progress)  for creating C++ Qt projects targeting the [Arduino DUE board](https://www.arduino.cc/en/Guide/ArduinoDue) (on ARM CortexM3 ATSAM3X8E controller based) with using the Qt Creator.
+Wizards for both bare metal and FreeRTOS.
+The templates are based on the [QBS](https://github.com/qbs/qbs).
 
-Prepare to work: install Arduino IDE with support Arduino DUE, install Qt Creator
+Setup instructions:
 
-Connect your Arduino board in the Programming port (if you use Native port you needed clear and reset your device manually)
-
-Copy this templates in (path-to-qt)/Tools/QtCreator/share/qtcreator/templates/wizards/
+*  install Arduino IDE with support Arduino DUE
+*  install Qt Creator
+*  connect your Arduino board in the Programming port (if you use Native port you needed clear and reset your device manually)
+*  copy this templates in (path-to-qt)/Tools/QtCreator/share/qtcreator/templates/wizards/
 
 If you work with FreeRTOS, download port FreeRTOS for Arduino DUE and copy dir FreeRTOS-ARM in (path-to-arduino)/libraries
 
